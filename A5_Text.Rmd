@@ -80,7 +80,7 @@ Hemos recibido en el área de analítica la información textual de un conjunto 
     ```{r}
     ### Respuesta aquí
     ```
-8. Elimine las stopwords del conjunto de unigramas. No elimine los stopwords que sean negaciones. ¿Cuántos unigramas no stopwords tiene la columna textual?
+8. Elimine las stopwords del texto. No elimine los stopwords que sean negaciones. ¿Cuántos unigramas no stopwords tiene la columna textual?
     ```{r}
     ### Respuesta aquí
     ```
