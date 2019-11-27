@@ -1,0 +1,126 @@
+---
+title: "BI Analyst. Actividad de negocio 5"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  html_notebook: default
+---
+
+Hemos recibido en el área de analítica la información textual de un conjunto de clientes. Ellos dan su feedback respecto a la atención recibida por nuestros agentes. Como experto en análisis textual, usted asume el reto de trabajar este conjunto de datos. Responda a continuación las siguientes preguntas (note que el espacio en azul corresponde a una respuesta a pregunta abierta y el espacio de código corresponde a una respuesta usando código R):
+
+1. ¿Cuál (o cuáles) de las siguientes soluciones analíticas textuales considera que pueden aplicarse al problema actual y porqué?
+
+    1. Descripción textual.
+    2. Trending topics.
+    3. Clustering textual.
+    4. Analisis de sentimiento.
+    5. Analisis de emociones.
+  
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+2. Lea la base de datos "texto_a5" en R y determine el número de filas y columnas que tiene la base. 
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+
+3. ¿Qué agente tiene mayor número de registros? ¿Qué agente tiene menor número de registros?
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+4. ¿Cuál es la distribución del número de caracteres de la variable textual para cada uno de los agentes? ¿parece presentar diferencias?
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+5. ¿Cuántos unigramas tiene la columna textual?
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+
+6. Realice una nube de palabras para cada uno de los agentes. ¿Qué observa a partir de esta herramienta gráfica? 
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+
+7. Mediante expresiones regulares, reemplace el nombre de los agentes cuando son mencionados en el texto por la palabra "agente". Por ejemplo, si tiene "Gracias por el servicio, Pepe es excelente", debe aparecer "gracias por el servicio, agente es excelente". 
+    ```{r}
+    ### Respuesta aquí
+    ```
+8. Elimine las stopwords del conjunto de unigramas. No elimine los stopwords que sean negaciones. ¿Cuántos unigramas no stopwords tiene la columna textual?
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+9. Lematice el conjunto de datos del punto anterior con la base de datos disponible [aquí](https://raw.githubusercontent.com/michmech/lemmatization-lists/master/lemmatization-es.txt).
+    ```{r}
+    ### Respuesta aquí
+    ```
+10. Realice nuevamente una nube de palabras para cada uno de los agentes. ¿Qué observa a partir de esta herramienta gráfica? (note que en este caso ya estandarizó el texto)
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+11. Encuentre los bigramas más frecuentes en el texto y realice un gráfico que ayude a visualizar estas relaciones entre las palabras. ¿Qué bigramas son interesantes en la base de datos?
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
+12. Si tuviera que asignar un sentimiento positivo o negativo a cada una de los comentarios ¿qué agente tendría mayor cantidad de comentarios positivos? ¿cuál tendría mayor cantidad de comentarios negativos? Tenga en cuenta en la medida de lo posible el contexto en la frase.
+    ```{r}
+    ### Respuesta aquí
+    ```
+    <style>
+    div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+    </style>
+    <div class = "blue">
+    Respuesta aquí
+    </div>
